@@ -12,7 +12,7 @@
 	<groupId>com.douzone</groupId>
 	<artifactId>springboot-myweb</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -40,22 +40,10 @@
 			<scope>test</scope>
 		</dependency>
 		
-		<!-- jstl -->
-		<dependency>
-		    <groupId>javax.servlet</groupId>
-		    <artifactId>jstl</artifactId>
-		</dependency>
-		
-		<!-- Tomcat Jasper -->
-		<dependency>
-		    <groupId>org.apache.tomcat.embed</groupId>
-		    <artifactId>tomcat-embed-jasper</artifactId>
-		</dependency>
-						
 	</dependencies>
 	
 	<build>
-		<finalName>sptingboot-myweb</finalName>	
+		<finalName>springboot-myweb</finalName>	
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
