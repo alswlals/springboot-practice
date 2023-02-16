@@ -13,7 +13,7 @@ public class MyWebApplication {
 		@ResponseBody
 		@RequestMapping("/hello")
 		public  String hello() {
-			return "hello world";
+			return "/WEB-INF/views/hello.jsp";
 		}
 	}
 	
@@ -21,3 +21,4 @@ public class MyWebApplication {
 		SpringApplication.run(MyWebApplication.class, args);
 	}
 }
+
